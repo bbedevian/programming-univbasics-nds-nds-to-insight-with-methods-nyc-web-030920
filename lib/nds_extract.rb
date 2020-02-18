@@ -17,7 +17,7 @@ def directors_totals(nds)
  dir_index = 0
   while dir_index < nds.length do 
   dir_name = nds[dir_index][:name]
-  new_hash[dir_name] = gross_for_director()
+  new_hash[dir_name] = gross_for_director(dir_name)
   dir_index +=1
 end
 new_hash
