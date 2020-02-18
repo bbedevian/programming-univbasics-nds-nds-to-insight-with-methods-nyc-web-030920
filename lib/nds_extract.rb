@@ -19,5 +19,8 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
+  
+  
+  result 
   nil
 end
