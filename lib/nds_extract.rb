@@ -18,13 +18,5 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  result = {}
-  i = 0 # director index
-  while i < nds.length do
-    dir_name = nds[i][:name]
-    result[dir_name] = 
-  end 
-  
-  result 
-  nil
+
 end
