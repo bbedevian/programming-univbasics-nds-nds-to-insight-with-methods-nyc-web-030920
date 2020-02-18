@@ -6,7 +6,8 @@ require 'directors_database'
 def gross_for_director(director_data)
 dir_total = 0 
 i = 0 
-
+while i < director_data[i][:movies].
+end 
 end
 
 # Write a method that, given an NDS creates a new Hash
