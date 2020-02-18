@@ -8,6 +8,7 @@ dir_total = 0
 i = 0 
 while i < director_data[:name][:movies][i].length do
 dir_total += director_data[:name][:movies][i][:worldwide_gross]  
+i+=1
 end 
 end
 
