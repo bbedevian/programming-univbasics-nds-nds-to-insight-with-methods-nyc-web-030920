@@ -11,6 +11,7 @@ while i < director_data[x][:movies][i].length do
 dir_total += director_data[x][:movies][i][:worldwide_gross]  
 i+=1
 end 
+dir_total 
 end
 
 # Write a method that, given an NDS creates a new Hash
