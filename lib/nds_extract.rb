@@ -11,15 +11,6 @@ end
 dir_total 
 end
 
-def gross_for_director(nds)
-dir_total = 0 
-i = 0 #movies 
-while i < nds[:movies].length do
-dir_total += nds[:movies][i][:worldwide_gross]  
-i+=1
-end 
-dir_total 
-end
 
 def directors_totals(nds)
  new_hash = {}
